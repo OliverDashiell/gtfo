@@ -18,6 +18,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
     "css": "github:systemjs/plugin-css@0.1.20",
+    "maps": "npm:google-maps-api-loader@0.0.4",
     "text": "github:systemjs/plugin-text@0.0.4",
     "vue": "npm:vue@1.0.11",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -75,9 +76,17 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "through": "npm:through@2.3.8"
     },
+    "npm:es6-promise@2.3.0": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "util": "github:jspm/nodelibs-util@0.1.0"
+    },
     "npm:esprima-fb@13001.1001.0-dev-harmony-fb": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:google-maps-api-loader@0.0.4": {
+      "es6-promise": "npm:es6-promise@2.3.0"
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
